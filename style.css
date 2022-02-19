@@ -1,0 +1,121 @@
+body, html{
+	margin:  0;
+	padding:  0;
+	width:  100%;
+	height: 100%;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	min-height: 100%;
+}
+
+.wrapper{
+	position: relative;
+	height: 100%;
+}
+
+.header{
+	width: 100%;
+	background: linear-gradient(145deg, #41C4DB, #5500b5);
+	color: #fff;
+	min-width: 610px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav{
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+a:hover{
+	color: #00FFFF;
+	text-decoration: underline;
+	opacity: 1;
+}
+
+.intro_inner{
+	width: 100%;
+ 	text-align: center;
+ 	height: 62vh;
+ 	font-size: 47px;
+ 	line-height: 35vh;
+}
+
+#about{
+	text-align: center;
+	font-size: 32px;
+	margin-top: 60px;
+}
+
+.title{
+	display: inline-block;
+	padding-bottom: 30px;	
+	border-bottom: 2px solid #FF0000;
+	margin-bottom: 70px;
+}
+
+.main_text{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #696981;
+	font-weight: 400;
+}
+
+#food{
+	text-align: center;
+	font-size: 32px;
+	margin-top: 60px;
+}
+
+.grid{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 2fr;
+	grid-column-gap: 30px;
+}
+
+.grid_png{
+	width: 100%;
+}
+
+.grid_text{
+	text-align: left;
+	font-size: 22px;
+	color: #696981;
+}
+
+#sport{
+	text-align: center;
+	font-size: 32px;
+	margin-top: 60px;
+}
+
+#clean{
+	text-align: center;
+	font-size: 32px;
+	margin-top: 60px;
+}
+
+.footer{
+	margin-top: 70px;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(141deg, #41C4DB, #122CD8, #5500b5);
+	height: 45vh;
+	font-size: 48px;
+	color: #fff;
+	line-height: 55px;
+	padding-top: 30px;
+	bottom: 0;
+}
+
+.footer_1, .footer_2{
+	height: 100px;
+}
